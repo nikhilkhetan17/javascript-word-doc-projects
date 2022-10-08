@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7c2ae8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  padding: 5px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn:active {
+  transform: translateY(3px);
+}
+
+.digit,
+.txt {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#count,
+.txt-l {
+  font-size: 35px;
+}
+
+#btn-container {
+  display: flex;
+  gap: 0 20px;
+  margin-top: 20px;
+}
+
+#conttainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

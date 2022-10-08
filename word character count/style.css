@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #008000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#type-here {
+  resize: none;
+  width: 500px;
+  height: 250px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+::placeholder {
+  color: rgb(78, 76, 76);
+  font-size: 20px;
+  /* text-align: center; */
+}
